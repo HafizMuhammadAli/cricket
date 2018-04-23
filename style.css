@@ -1,0 +1,79 @@
+body, html {
+    height: 100%;
+}
+
+body#page { 
+    background-image: url("images/stadium.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    
+}
+
+#button {
+    background-color: rgb(119, 214, 122); 
+    border: none;
+    float: none;
+    color: white;
+    padding: 20px;
+    margin-left: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin:  -20px 5px 100px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.h8{
+    color: rgb(238, 226, 62);
+    /* float: initial; */
+    /* widt  */
+    float: right;
+    margin: -150px 20px 20px 400px;
+    font-size: 200%;
+    font-family: algerian, courier;
+    line-height: 50%;
+
+}
+.h1{
+    color: rgb(186, 243, 189);
+    /* float: initial; */
+    width: 0.5em;
+    margin: 10px 100px 200px 100px;
+    font-size: 400%;
+    font-family: algerian, courier;
+    line-height: 100%;
+
+}
+#runs, #runs2{
+    float: right; 
+ }
+h2{
+    display:inline;
+    color:white;
+    background-color: rgba(162, 250, 216, 0.541);
+    border-top: 1px solid rgb(218, 217, 217);
+  
+}
+span{
+    color: rgb(0, 0, 0);
+    background-color:rgba(221, 149, 66, 0.616);
+}
+#results{
+    color: rgba(240, 238, 102, 0.753);
+    margin: 60px 350px;
+    font-size: 25px;
+    display: inline-block;
+    background-color:rgba(252, 150, 150, 0.445);
+    font-family: algerian, courier;
+   
+}
+#playAgain{
+    display: inline;
+    color:black;
+    background-color: rgba(196, 150, 92, 0.473);
+}
